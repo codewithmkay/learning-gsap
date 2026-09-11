@@ -12,3 +12,19 @@ gsap.to(".box", {
 //     PROPERTY: VALUE,
 //     duration: TIME
 // });
+
+
+
+// in the below code, gsap.from is used to animate the element with the class "cat" by moving it 
+// from 300 pixels to the right back to its original position over a duration of 2 seconds using the GSAP
+
+
+gsap.from(".cat", {
+    x: 300,
+    duration: 2
+})
+
+// gsap.from("ELEMENT", {
+//     PROPERTY: VALUE,
+//     duration: TIME
+// });
