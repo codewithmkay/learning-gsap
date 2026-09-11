@@ -30,6 +30,7 @@ gsap.from(".cat", {
 })
 
 
+
 const tl = gsap.timeline();
 
 tl.to(".bat", {
@@ -37,10 +38,13 @@ tl.to(".bat", {
     duration: 2,
     rotation: 360
 
-});
+})
 
-tl.to(".rat", {
+.to(".rat", {
     x: 300,
-    duration: 2,
+    duration: 4,
     rotation: 360
-});
+}, "<");
+
+// we use < in the above code to make the
+//  second animation start at the same time as the first animation.  
