@@ -22,3 +22,17 @@ body {
 
     background: red;
 }
+
+.bat {
+    width: 100px;
+    height: 100px;
+
+    background: blue;
+}
+
+.rat {
+    width: 100px;
+    height: 100px;
+
+    background: green;
+}

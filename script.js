@@ -4,14 +4,14 @@
 
 
 gsap.to(".box", {
-    x:300,
-    duration: 2   
+    x:-300,
+    duration: 2,
+    opacity: 0,
+    // rotation: 360,
+    // scale : 2,
+    // ease: "bounce.out",
+    ease: "power3.out"
 })
-
-// gsap.to("ELEMENT", {
-//     PROPERTY: VALUE,
-//     duration: TIME
-// });
 
 
 
@@ -21,10 +21,26 @@ gsap.to(".box", {
 
 gsap.from(".cat", {
     x: 300,
-    duration: 2
+    duration: 2,
+    opacity: 0,
+    // scale: 0.5,
+    ease: "power3.out",
+    // rotation: -25,
+    delay: 0.5
 })
 
-// gsap.from("ELEMENT", {
-//     PROPERTY: VALUE,
-//     duration: TIME
-// });
+
+const tl = gsap.timeline();
+
+tl.to(".bat", {
+    x: 300,
+    duration: 2,
+    rotation: 360
+
+});
+
+tl.to(".rat", {
+    x: 300,
+    duration: 2,
+    rotation: 360
+});
