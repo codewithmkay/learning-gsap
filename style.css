@@ -27,8 +27,19 @@ body {
 
 
 
+.try {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
 
+.try-box {
+    width: 150px;
+    height: 150px;
 
+    background: red;
+}
 
 /* 
 .box  {
